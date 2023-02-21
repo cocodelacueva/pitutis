@@ -1,0 +1,21 @@
+{
+    "name": "pitutis",
+    "version": "1.0.0",
+    "description": "Digital Pet made in NodeJS",
+    "main": "index.js",
+    "repository": "https://github.com/cocodelacueva/pitutis.git",
+    "author": "coco",
+    "license": "MIT",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "ejs": "^3.1.5",
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+  }

@@ -1,0 +1,3 @@
+APPLICATION_NAME=pitutis
+NODE_ENV=development
+PORT=3000
