@@ -1,5 +1,7 @@
 const router = require('express').Router();
 
 router.get('/', (req, res) => {
-    res.send('Pitutis\' work')
+    res.status('200').json({"status":"200","message":"Pitutis' work"});
   })
+
+module.exports = router;
