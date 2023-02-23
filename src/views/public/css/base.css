@@ -72,6 +72,14 @@ body {
 
 .main-footer {
     padding: 2em 1em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer button {
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: .8rem;
 }
 
 .main-header {

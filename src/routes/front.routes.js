@@ -1,7 +1,13 @@
 const router = require('express').Router();
 
 router.get('/', (req, res, next) => {
-    res.render('pages/index');
+
+    if (req.gaming) {
+        res.render('pages/game');
+    } else {
+        res.render('pages/index');
+    }
+    
 });
 
 
