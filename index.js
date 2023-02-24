@@ -9,6 +9,9 @@ const { usserSesion } = require('./src/middleware');
 
 const app = express();
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 //sesiones
 app.use(session({secret: SESIONSECRETKEY, resave: true, saveUninitialized: true}))
 

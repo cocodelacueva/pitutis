@@ -22,5 +22,15 @@ router.get('/destroy', (req, res) => {
 });
 
 
+router.post('/actions', (req, res) => {
+  console.log(req.body)
+
+  let data = {action: req.body.action}
+  if (data.action == 'ask') {
+    data.question = req.body.question
+  }
+
+});
+
 
 module.exports = router;
