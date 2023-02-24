@@ -304,3 +304,11 @@
     flex-grow: 1;
 }
 
+.functions-container .info-btn {
+    position: absolute;
+    z-index: 1;
+    bottom: 0.5rem;
+    left: 1rem;
+    text-decoration: underline;
+}
+

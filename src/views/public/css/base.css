@@ -141,6 +141,7 @@ body {
 
 .info-container {
     position: absolute;
+    z-index: 5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -148,7 +149,7 @@ body {
     height: 70%;
     background-color: rgba(0, 0, 0, .8);
     color: #fff;
-    padding: 1em;
+    padding: 2em 1em 1em;
     border-radius: 3px;
     opacity: 0;
     pointer-events: none;
@@ -161,15 +162,30 @@ body {
     transition: opacity 500ms;
 }
 
+.info-container .close-btn {
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
 .text-styles h2, .text-styles h3 {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
 }
 
 .text-styles h4, .text-styles h5, .text-styles h6 {
     font-size: 1.2rem;
     font-weight: normal;
+    margin-bottom: .8rem;
+}
+
+.text-styles p {
     margin-bottom: .5rem;
 }
 
@@ -187,8 +203,10 @@ body {
 .text-styles ul {
     list-style: disc;
     padding-left: 1rem;
+    margin-bottom: .5rem;
 }
 .text-styles ol {
     list-style: decimal;
     padding-left: 1rem;
+    margin-bottom: .5rem;
 }
