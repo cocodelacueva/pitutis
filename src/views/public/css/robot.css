@@ -233,3 +233,74 @@
     transform: translate(-50%);
     border-radius: 20% 20% 40% 40%;
 }
+
+/*
+ * Functions 
+*/
+.functions-container {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 150%;
+    max-height: 550px;
+    max-width: 500px;
+    background-color: rgba(255,255,255,0.5);
+    bottom: -60px;
+    left: 0;
+    padding: 1rem;
+}
+
+.functions-container .functions__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.functions-container .functions__controls {
+    margin-top: 2rem;
+}
+
+.functions-container .form_group {
+
+}
+
+.functions-container .form-inner {
+    margin-top: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.functions-container .form-inner label {
+    width: 100%;
+    font-size: .8rem;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+
+.functions-container .form-inner button {
+    font-size: .8rem;
+    border: 1px solid #333;
+    padding: 0.3rem 0.4rem;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #333;
+}
+
+.functions-container .form-inner input {
+    font-size: .9rem;
+    padding: .2rem;
+    display: block;
+    height: 2rem;
+    margin-right: .7rem;
+    flex-grow: 1;
+}
+
+.functions-container .form-inner select {
+    font-size: .9rem;
+    padding: .2rem;
+    display: block;
+    height: 2rem;
+    margin-right: .7rem;
+    flex-grow: 1;
+}
+

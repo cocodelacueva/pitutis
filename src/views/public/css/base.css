@@ -57,6 +57,7 @@ a, a:hover {
 
 button {
     cursor: pointer;
+    background-color: transparent;
 }
 
 /*
@@ -78,7 +79,6 @@ body {
 
 .main-footer button {
     text-decoration: underline;
-    background-color: transparent;
     font-size: .8rem;
 }
 
@@ -124,7 +124,6 @@ body {
     text-transform: uppercase;
     border: 1px #444 solid;
     padding: .5em ;
-    background-color: transparent;
 }
 
 /*
