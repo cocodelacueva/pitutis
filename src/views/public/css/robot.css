@@ -312,3 +312,15 @@
     text-decoration: underline;
 }
 
+.functions-container .helpers-msj {
+    margin-top: 2rem;
+    color: #7e5212;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.functions-container .helpers-msj.on {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+

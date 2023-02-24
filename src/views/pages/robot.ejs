@@ -1,6 +1,6 @@
 <section class="game-container">
 
-    <div class="info-container text-styles on">
+    <div id="infobox" class="info-container text-styles">
         <button id="close-info" class="close-btn">X</button>
         <h2>
            Hí! I'm Robot.
@@ -61,18 +61,23 @@
                     <div class="form-inner">
                         <label for="talker">Talk with Robot</label>
                         <input id="talker" name="talker">
-                        <button>Talk ></button>
+                        <button id="talk-action-btn">Talk ></button>
                     </div>
 
                     <div class="form-inner">
                         <label for="actions">What do you want to do?</label>
                         <select name="actions" id="actions">
-                            <option>Select one</option>
+                            <option value="none">Select one</option>
                             <option value="chargeit">Charge me</option>
                             <option value="dance">Dance</option>
                             <option value="talktome">Talk to me</option>
                         </select>
                     </div>
+                </div>
+
+                <div  id="helpersmsj" class="helpers-msj text-styles">
+                    <h2>Tip!</h2>
+                    <div class="msjhelperwrapper"></div>
                 </div>
 
                 <button id="toggle-info" class="info-btn">More info!</button>
